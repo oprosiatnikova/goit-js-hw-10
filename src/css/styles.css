@@ -18,6 +18,23 @@
 @import url('./footer.css');
 .timer {
   display: flex;
-  justify-content: center;
-
+    width: 236px;
+    margin: 0 auto;
 }
+
+/* 
+width: 300px;
+    margin: 0 auto;
+    
+    input
+        display: block;
+    width: 319px;
+    margin: 10px auto;
+}
+    */
+
+    .test-class {
+      margin: 0px auto;
+      width: 300px;
+    }
+    
