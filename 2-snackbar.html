@@ -10,7 +10,7 @@
   <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/modulepreload-polyfill-B5Qt9EMX.js">
   <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-BbbuE1sJ.js">
   <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-CZjNVMTf.css">
-  <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-BayHi9gY.css">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-Bgj5uS_m.css">
 </head>
 
 <body>
@@ -24,23 +24,25 @@
     </div>
     <form class="form">
       <label>
-        Затримка (мс)
-        <input type="number" name="delay" required />
+        <p>Затримка (мс)</p>
+        <input class="input-snackbar" type="number" name="delay" required />
       </label>
 
-      <fieldset class="test-class">
-        <legend>Стан</legend>
-        <label>
+      <fieldset class="fieldset-snackbar">
+        <legend>
+          <p>Стан</p>
+        </legend>
+        <label class="label">
           <input type="radio" name="state" value="fulfilled" required />
-          Виконано
+          <p>Виконано</p>
         </label>
         <label>
           <input type="radio" name="state" value="rejected" required />
-          Відхилено
+          <p>Відхилено</p>
         </label>
       </fieldset>
 
-      <button type="submit">Створити повідомлення</button>
+      <button class="button-snackbar" type="submit">Створити повідомлення</button>
     </form>
   </main>
 
